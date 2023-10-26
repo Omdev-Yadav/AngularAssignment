@@ -1,0 +1,54 @@
+<!-- <style>
+  .product-card {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    margin-top: 20px;
+  }
+
+  .product-card-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .product-card-title {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+  .product-card-body {
+    padding: 20px;
+  }
+
+  .product-info {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .product-label {
+    font-weight: bold;
+    color: #3498db;
+  }
+</style> -->
+
+<div class="container">
+  <div class="product-card">
+    <div class="product-card-header">
+      <h2 class="product-card-title">Product Description</h2>
+    </div>
+    <div class="product-card-body">
+      <div class="row">
+        <div class="col-md-8">
+          <p class="product-info"><span class="product-label">Product Name:</span> {{ product?.name }}</p>
+          <p class="product-info"><span class="product-label">Category:</span> {{ product?.category }}</p>
+          <p class="product-info"><span class="product-label">Description:</span> {{ product?.description }}</p>
+          <p class="product-info"><span class="product-label">Price:</span> ${{ product?.price }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

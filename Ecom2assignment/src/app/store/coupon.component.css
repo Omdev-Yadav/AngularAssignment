@@ -1,0 +1,60 @@
+.coupon-container {
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    position: relative; /* To position the close box */
+    background-color: #ecdca5;
+  }
+  
+  .close-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #d11b1b;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .coupon-button {
+    background-color: #438745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #81806a;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  p:first-child {
+    font-weight: bold;
+  }
+  .discount-applied {
+    background-color: #4CAF50; /* Change the background color to green */
+    color: white; /* Change the text color to white */
+  }

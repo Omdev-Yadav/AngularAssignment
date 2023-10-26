@@ -1,0 +1,12 @@
+<div *ngIf="successMessageVisible" class="alert alert-success ml-7">
+  Success! Your action was completed.
+</div>
+<body>
+  <div class="coupon-container" *ngIf="couponVisible">
+    <span class="close-box" (click)="closeCoupon()">&times;</span>
+    <h1>Coupon Code:</h1>
+    <button class="coupon-button" (click)="applyCouponAndRedirect()" (click)="showSuccessMessage()">SUMMERSALE10</button>
+    <p>Use this coupon code for getting 10% Discount in your Purchase.</p>
+  </div>
+</body>
+
